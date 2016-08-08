@@ -3,9 +3,9 @@ window.contentLandingPage = [
     contents: {
       title: "Right now there are 1954 export opportunities. Find yours.",
       text:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "An online resource to help exporters both identify the best export opportunities and find the information and key contacts needed to achieve success.",
       formTitle: "Register now and get your 1-Year-Free-Subscription.",
-      buttonAdditionalText: 'By clicking on the button "Become a member now", you agree our terms.',
+      buttonAdditionalText: 'By clicking on the button "Become a member now", you agree our terms and conditions.',
       buttonText: "Become a member now"
     },
     pictures: {
@@ -21,70 +21,70 @@ window.contentLandingPage = [
     inputFields: [
       {
         inputType: "text",
-        label: "Name des Unternehmens"
+        label: "Name of the company"
       },
       {
         inputType: "select",
         options: [
-          "Kategorie 1",
-          "Kategorie 2",
-          "Kategorie 3",
-          "Kategorie 4"
+          "Category 1",
+          "Category 2",
+          "Category 3",
+          "Category 4"
         ]
       },
       {
         inputType: "select",
         options: [
-          "Branche 1",
-          "Branche 2",
-          "Branche 3",
-          "Branche 4"
+          "Branch of industry 1",
+          "Branch of industry 2",
+          "Branch of industry 3",
+          "Branch of industry 4"
         ]
       },
       {
         inputType: "text",
-        label: "Benutzername"
+        label: "User name"
       },
       {
         inputType: "email",
-        label: "E-Mail Adresse"
+        label: "E-Mail adress"
       },
       {
         inputType: "password",
-        label: "Passwort vergeben"
+        label: "Password"
       },
       {
         inputType: "password",
-        label: "Passwort wiederholen"
+        label: "Repeat passwort"
       }
     ]
   },
   { module: "KeyFeatures",
     features: [
       {
-        title: "Firmenprofil anlegen",
-        text: "Zeigen Sie, was Sie unverwechselbar macht. Legen Sie ein Firmenprofil an, das Ihre Angebote und Leistungen beschreibt und stellen Sie sich und Ihre Mitarbeiter den anderen Plattformmitgliedern vor.",
+        title: "Create a company profile",
+        text: "Show what makes you unique. Create a company profile describing your offers and services and introduce yourself and your employees to other platform members.",
         icon: "business",
         button: {
-          text: "Jetzt registrieren",
+          text: "Register now",
           url: "#register-form"
         }
       },
       {
-        title: "Zielgruppe finden",
-        text: "Schlagwortsuche, Active Matching und Gruppen der Plattform helfen Ihnen, zu Ihren konkreten Anliegen die richtigen Ansprechpartner auf der Plattform zu finden.",
+        title: "Find your target group",
+        text: "Keyword search, active matching and groups will help you to find the right person on the platform.",
         icon: "group",
         button: {
-          text: "Jetzt registrieren",
+          text: "Register now",
           url: "#register-form"
         }
       }
     ]
   },
   { module: "SlideStatement",
-    title: "Wir vernetzen Know-how. Schnell, sicher, erfolgreich.",
+    title: "We make knowledge accessible, enabling you to connect the dots. Quickly, safely and successfully.",
     background: {
-      src: "gfx/fotolia_110376588.jpg",
+      src: "gfx/landing-page/photo-1468420227854-e792779a87d3.jpeg",
       positionX: "90%",
       positionY: "50%"
     }
@@ -93,51 +93,51 @@ window.contentLandingPage = [
     cards: [
       {
         type: "people",
-        title: "Köln: Top Lage, perfekte Logistik",
-        text: "Köln liegt als viertgrößte Stadt Deutschlands optimal erreichbar im Zentrum eines enormen Absatzmarktes: In einem Radius von nur 100km leben rund 17 Millionen Menschen.",
-        url: "http://startupregion.koeln/infrastructure.html",
-        picture: "gfx/landing-page/fotolia_82266608.jpg"
+        title: "British Airways",
+        text: "British Airways is a full service global airline, offering year-round low fares with an extensive global route network flying to and from centrally-located airports.",
+        url: "http://www.britishairways.com/",
+        picture: "gfx/landing-page/people/BA_GooglePlus_profImg_250x250_v01.jpg"
       },
       {
         type: "people",
-        title: "Stadt Köln",
-        text: "Für den Erfolg sind nicht nur wirtschaftliche Faktoren wichtig: das ganze Umfeld muss passen. Wie in Köln, der Weltstadt mit Tempo und Herz.",
-        url: "http://www.stadt.koeln/",
-        picture: "gfx/landing-page/fotolia_93025626.jpg"
+        title: "Crowdfunder.co.uk",
+        text: "Crowdfunder enables you to setup your crowdfunding projects, create your crowd and collect payments from your backers. Everything you need to fund your great idea.",
+        url: "http://www.crowdfunder.co.uk/",
+        picture: "gfx/landing-page/people/4RB6bo_Z.jpg"
       },
       {
         type: "people",
-        title: "Köln und Industrie",
-        text: "Die produktive Mischung aus großen, mittleren und kleinen heimischen und ausländischen Unterneh­men zeigt das große Potential der Wirtschaftsregion Köln.",
-        url: "http://startupregion.koeln/industry.html",
-        picture: "gfx/landing-page/fotolia_71453007.jpg"
+        title: "NatWest",
+        text: "NatWest have one simple goal: To be the best bank for customer service, by 2020. NatWest provide a full range of banking and insurance services to personal, business and commercial customers.",
+        url: "http://www.business.natwest.com/business.html",
+        picture: "gfx/landing-page/people/10297809_426656290804010_8049748194267470874_n.png"
       },
       {
         type: "people",
-        title: "NetCologne - Digitales Köln",
-        text: "Nicht nur die Versorgung mit schnellem Internet im Büro, sondern auch die Möglichkeit mobil sein Business optimal zu führen sind essentiell. Kölns TK-Anbieter NetCologne bietet beides.",
-        url: "https://www.netcologne.de/geschaeftskunden",
-        picture: "gfx/landing-page/logo-netcologne.png"
+        title: "ParcelHero",
+        text: "Providing outstanding service is at the heart of the ParcelHero philosophy, we want to make a real difference to our customers.",
+        url: "https://www.parcelhero.com/",
+        picture: "gfx/landing-page/people/photo.png"
       },
       {
         type: "people",
-        title: "IHK Köln - Starker Partner für Startups",
-        text: "Ob Existenzgründung, Unternehmenswachstum oder Unternehmensnachfolger: Die IHK Köln berät, hilft und informiert.",
-        url: "https://www.ihk-koeln.de/Existenzgruendung.AxCMS?ActiveID=1671",
-        picture: "gfx/landing-page/ihk-k.png"
+        title: "Santander",
+        text: "For medium to large businesses looking for a relationship managed service or requiring more comprehensive banking, international, or larger lending needs.",
+        url: "https://www.santandercb.co.uk/",
+        picture: "gfx/landing-page/people/santander.gif"
       },
       {
         type: "register",
-        text: "Kostenlos registrieren und ein Jahr unverbindlich testen.",
-        buttonText: "Jetzt registrieren",
+        text: "Access thousands of influential global contacts, try it free for 1 year.",
+        buttonText: "Register now",
         url: "#register-form"
       }
     ]
   },
   { module: "SlideStatement",
-    title: "Vernetzen Sie sich mit dem Erfolg.",
+    title: "Get connected with the world of success",
     background: {
-      src: "gfx/Fotolia_101170696_L-1920.jpg",
+      src: "gfx/landing-page/photo-1460551204960-763bc82b7d8f.jpeg",
       positionX: "55%",
       positionY: "50%"
     }
