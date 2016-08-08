@@ -135,7 +135,7 @@ window.contentLandingPage = [
     ]
   },
   { module: "SlideStatement",
-    title: "Get connected with the world of success",
+    title: "Get connected with the world of success.",
     background: {
       src: "gfx/landing-page/photo-1460551204960-763bc82b7d8f.jpeg",
       positionX: "55%",
