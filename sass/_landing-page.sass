@@ -9,6 +9,17 @@ $slide--statement-height: 700px
   padding-top: $slide--padding-top
   padding-bottom: $slide--padding-bottom
 
+  &__motiv-picture
+    margin-bottom: -90px
+
+    &--xs
+      margin-bottom: 0
+      margin-top: 30px
+      margin-left: auto
+      margin-right: auto
+      max-width: 400px
+      width: 100%
+
 .slide--with-background
   background: no-repeat center center
   -webkit-background-size: 100%
@@ -35,17 +46,10 @@ $slide--statement-height: 700px
   font-weight: lighter
 
 .slide--title
-  background-image: url('../gfx/landing-hintergrund.jpg')
   background-attachment: scroll
-  background-position: 100% 50%
 
   .slide--with-background__inner-div
     background-color: rgba(0, 0, 0, 0.0)
-
-
-@media(max-width: 768px)
-  .slide--title
-    background-position: 80% 50%
 
 .slide--statement
   height: $slide--statement-height
@@ -166,23 +170,3 @@ $padding-negative-text: 3px
 
   .btn-password::before
     content: "Passwort vergessen "
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.spacing

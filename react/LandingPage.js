@@ -171,8 +171,8 @@ var TitleWithRegisterForm = React.createClass({
                   <p>{data.contents.text}</p>
                 </div>
                 <IfNotNullModule check={[data.pictures.motiv.src] }>
-                  <img src={data.pictures.motiv.src} alt="motiv" className="visible-lg-block visible-md-block visible-sm-block img-responsive" style={{marginBottom: '-90px'}} />
-                  <img src={data.pictures.motiv.src} alt="motiv" className="visible-xs-block img-responsive" style={{ maxWidth: 250, marginLeft: 'auto', marginRight: 'auto', marginBottom: '-40px' }} />
+                  <img src={data.pictures.motiv.src} alt="motiv" className="visible-lg-block visible-md-block visible-sm-block img-responsive slide__motiv-picture" />
+                  <img src={data.pictures.motiv.src} alt="motiv" className="visible-xs-block img-responsive slide__motiv-picture slide__motiv-picture--xs" />
                 </IfNotNullModule>
               </div>
               <div className="col-sm-6 col-sm-offset-1">
