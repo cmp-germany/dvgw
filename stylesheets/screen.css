@@ -7499,7 +7499,7 @@ body {
 /* line 6, ../sass/_navbar.sass */
 .navbar .navbar-brand__title {
   font-family: "Pacifico", cursive;
-  color: #B00000;
+  color: #FFD925;
   font-size: 30px;
 }
 /* line 11, ../sass/_navbar.sass */
@@ -7553,7 +7553,7 @@ body {
   height: 30px;
   border: none;
   color: #fff;
-  background-color: rgba(225, 20, 28, 0.85);
+  background-color: rgba(223, 32, 39, 0.85);
   padding: 5px 20px;
   margin-left: 7px;
   font-weight: bold;
@@ -7561,7 +7561,7 @@ body {
 }
 /* line 62, ../sass/_navbar.sass */
 .navbar.grand-navbar .nav-button:hover {
-  background-color: rgba(176, 0, 0, 0.85);
+  background-color: rgba(255, 217, 37, 0.85);
 }
 
 /* line 65, ../sass/_navbar.sass */
@@ -7592,7 +7592,7 @@ body {
 }
 /* line 84, ../sass/_navbar.sass */
 .navbar.navbar-options .starters-navigation__list-item:hover {
-  background-color: #B00000;
+  background-color: #FFD925;
 }
 
 /* line 87, ../sass/_navbar.sass */
@@ -7785,8 +7785,8 @@ input[type=range].form-control--range-navbar:focus::-ms-fill-upper {
   border: none;
   background-color: transparent;
   outline: none;
-  background-color: #E1141C;
-  background-color: rgba(225, 20, 28, 0.85);
+  background-color: #DF2027;
+  background-color: rgba(223, 32, 39, 0.85);
 }
 /* line 235, ../sass/_navbar.sass */
 .dropdown-menu--starters:focus {
@@ -7832,7 +7832,7 @@ input[type=range].form-control--range-navbar:focus::-ms-fill-upper {
 /* line 270, ../sass/_navbar.sass */
 .navbar__tab {
   background-color: transparent;
-  color: #B00000;
+  color: #FFD925;
   border: none;
   outline: none;
   display: none;
@@ -7867,7 +7867,7 @@ input[type=range].form-control--range-navbar:focus::-ms-fill-upper {
   float: right;
   vertical-align: top;
   font-family: "Pacifico", cursive;
-  color: #B00000;
+  color: #FFD925;
   font-size: 30px;
   padding-bottom: 8px;
   line-height: 10px;
@@ -7925,13 +7925,13 @@ input[type=range].form-control--range-navbar:focus::-ms-fill-upper {
 
 /* line 8, ../sass/_buttons.sass */
 .btn-important {
-  background-color: #E1141C;
+  background-color: #DF2027;
   color: #fff;
 }
 
 /* line 12, ../sass/_buttons.sass */
 .btn-important:active, .btn-important:focus, .btn-important:hover {
-  background-color: #b21016;
+  background-color: #b21a1f;
   color: #fff;
 }
 
@@ -8198,7 +8198,7 @@ input[type=range].form-control--range-navbar:focus::-ms-fill-upper {
 
 /* line 118, ../sass/_landing-page.sass */
 .key-feature__icon {
-  color: #B00000;
+  color: #FFD925;
   font-size: 60px;
   margin-left: -15px;
   display: block;
@@ -8208,7 +8208,7 @@ input[type=range].form-control--range-navbar:focus::-ms-fill-upper {
 .key-feature__headline {
   margin-top: 0;
   padding-bottom: 10px;
-  border-bottom: solid 1px #B00000;
+  border-bottom: solid 1px #FFD925;
 }
 
 /* line 130, ../sass/_landing-page.sass */
@@ -8222,8 +8222,8 @@ input[type=range].form-control--range-navbar:focus::-ms-fill-upper {
 /* line 136, ../sass/_landing-page.sass */
 .profile-card__innerDiv {
   padding: 10px;
-  border-top: 1px solid #B00000;
-  border-left: 1px solid #B00000;
+  border-top: 1px solid #FFD925;
+  border-left: 1px solid #FFD925;
   border-bottom: 1px solid #eee;
   border-right: 1px solid #eee;
   background-color: #fff;
@@ -8248,7 +8248,7 @@ input[type=range].form-control--range-navbar:focus::-ms-fill-upper {
 
 /* line 157, ../sass/_landing-page.sass */
 .register-card__innerDiv {
-  background-color: #B00000;
+  background-color: #FFD925;
   padding: 20px;
   height: 145px;
 }
@@ -8262,32 +8262,33 @@ input[type=range].form-control--range-navbar:focus::-ms-fill-upper {
 
 /* line 168, ../sass/_landing-page.sass */
 .navbar-brand-img {
-  margin-top: -10px;
+  margin-top: -15px;
   width: auto;
+  height: 50px;
 }
 
-/* line 172, ../sass/_landing-page.sass */
+/* line 173, ../sass/_landing-page.sass */
 .navbar-brand.display {
   display: block;
 }
 
 @media(max-width:767px) {
-  /* line 176, ../sass/_landing-page.sass */
+  /* line 177, ../sass/_landing-page.sass */
   .navbar-landing-page {
     background-color: rgba(19, 35, 51, 0.9);
   }
 
-  /* line 179, ../sass/_landing-page.sass */
+  /* line 180, ../sass/_landing-page.sass */
   .navbar .btn-important {
     margin-left: 0;
   }
 
-  /* line 182, ../sass/_landing-page.sass */
+  /* line 183, ../sass/_landing-page.sass */
   .btn-password {
     float: right;
   }
 
-  /* line 185, ../sass/_landing-page.sass */
+  /* line 186, ../sass/_landing-page.sass */
   .btn-password::before {
     content: "Passwort vergessen ";
   }
@@ -8298,11 +8299,11 @@ body {
 }
 /* line 5, ../sass/_wall.sass */
 body a {
-  color: #E1141C;
+  color: #DF2027;
 }
 /* line 7, ../sass/_wall.sass */
 body a:hover {
-  color: #B00000;
+  color: #FFD925;
 }
 
 /* line 10, ../sass/_wall.sass */
@@ -8326,7 +8327,7 @@ body a:hover {
 
 /* line 26, ../sass/_wall.sass */
 .wall-widget--side header {
-  border-bottom: solid 1px #B00000;
+  border-bottom: solid 1px #FFD925;
   margin-right: -20px;
   margin-left: -20px;
   padding-left: 20px;
@@ -8341,7 +8342,7 @@ body a:hover {
   vertical-align: middle;
   width: 35px;
   font-size: 30px;
-  color: #4a0000;
+  color: #be9d00;
 }
 /* line 41, ../sass/_wall.sass */
 .wall-widget--side header h3 {
@@ -8388,12 +8389,12 @@ body a:hover {
 }
 /* line 74, ../sass/_wall.sass */
 .wall-widget--filter-switch a:hover {
-  color: #E1141C;
+  color: #DF2027;
 }
 /* line 78, ../sass/_wall.sass */
 .wall-widget--filter-switch.is-selected-right a.element-right {
   color: #333;
-  border-bottom: solid 1px #E1141C;
+  border-bottom: solid 1px #DF2027;
 }
 /* line 82, ../sass/_wall.sass */
 .wall-widget--filter-switch.is-selected-right .select-toggle {
@@ -8406,7 +8407,7 @@ body a:hover {
 /* line 90, ../sass/_wall.sass */
 .wall-widget--filter-switch.is-selected-left a.element-left {
   color: #333;
-  border-bottom: solid 1px #E1141C;
+  border-bottom: solid 1px #DF2027;
 }
 /* line 94, ../sass/_wall.sass */
 .wall-widget--filter-switch.is-selected-left .select-toggle {
@@ -8639,7 +8640,7 @@ body a:hover {
   width: 100%;
   padding: 30px;
   height: 130px;
-  border-bottom: solid 1px #B00000;
+  border-bottom: solid 1px #FFD925;
 }
 
 /* line 260, ../sass/_wall.sass */
@@ -8704,7 +8705,7 @@ body a:hover {
 
 /* line 307, ../sass/_wall.sass */
 .wall-widget--button {
-  background-color: #e30000;
+  background-color: #ffe258;
   outline: none;
   border: none;
   color: #fff;
@@ -8714,7 +8715,7 @@ body a:hover {
 }
 /* line 316, ../sass/_wall.sass */
 .wall-widget--button:hover {
-  background-color: #4a0000;
+  background-color: #be9d00;
 }
 /* line 319, ../sass/_wall.sass */
 .wall-widget--button i {
@@ -8727,7 +8728,7 @@ body a:hover {
 /* line 325, ../sass/_wall.sass */
 .wall-widget--button__blue {
   border: solid 1px #eee;
-  background-color: #B00000;
+  background-color: #FFD925;
   color: #fff;
   font-size: 16px;
   width: 100px;
@@ -8876,7 +8877,7 @@ body a:hover {
 /* line 443, ../sass/_wall.sass */
 .wall-widget--activity-post {
   background-color: #fff;
-  border: solid 1px #B00000;
+  border: solid 1px #FFD925;
   border-bottom-color: #eee;
   border-right-color: #eee;
   padding: 15px 22px;
@@ -9237,7 +9238,7 @@ body a:hover {
 
 /* line 22, ../sass/_search.sass */
 .search-filter-form {
-  border-bottom: solid 1px #B00000;
+  border-bottom: solid 1px #FFD925;
 }
 
 /* line 25, ../sass/_search.sass */
@@ -9327,7 +9328,7 @@ body a:hover {
 
 /* line 84, ../sass/_search.sass */
 .search-btn-locations {
-  background-color: #B00000;
+  background-color: #FFD925;
 }
 /* line 86, ../sass/_search.sass */
 .search-btn-locations .material-icons {
@@ -9401,7 +9402,7 @@ body a:hover {
   vertical-align: middle;
   width: 35px;
   font-size: 30px;
-  color: #4a0000;
+  color: #be9d00;
 }
 /* line 14, ../sass/_matching.sass */
 .site__header h3 {
@@ -9471,12 +9472,12 @@ body a:hover {
 }
 /* line 66, ../sass/_matching.sass */
 .matching__filter-switch a:hover, .matching-site .Wall_MatchingsList .wall-widget--filters .wall-widget--filter-switch a:hover {
-  color: #E1141C;
+  color: #DF2027;
 }
 /* line 70, ../sass/_matching.sass */
 .matching__filter-switch.is-selected-right .matching__element--right, .matching-site .Wall_MatchingsList .wall-widget--filters .is-selected-right.wall-widget--filter-switch .matching__element--right {
   color: #333;
-  border-bottom: solid 1px #E1141C;
+  border-bottom: solid 1px #DF2027;
 }
 /* line 74, ../sass/_matching.sass */
 .matching__filter-switch.is-selected-right .select-toggle, .matching-site .Wall_MatchingsList .wall-widget--filters .is-selected-right.wall-widget--filter-switch .select-toggle {
@@ -9489,7 +9490,7 @@ body a:hover {
 /* line 82, ../sass/_matching.sass */
 .matching__filter-switch.is-selected-left .matching__element--left, .matching-site .Wall_MatchingsList .wall-widget--filters .is-selected-left.wall-widget--filter-switch .matching__element--left {
   color: #333;
-  border-bottom: solid 1px #E1141C;
+  border-bottom: solid 1px #DF2027;
 }
 /* line 86, ../sass/_matching.sass */
 .matching__filter-switch.is-selected-left .select-toggle, .matching-site .Wall_MatchingsList .wall-widget--filters .is-selected-left.wall-widget--filter-switch .select-toggle {
@@ -9853,8 +9854,8 @@ body a:hover {
   overflow: hidden;
   padding: 6px;
   border: solid 1px #dddddd;
-  border-top-color: #B00000;
-  border-left-color: #B00000;
+  border-top-color: #FFD925;
+  border-left-color: #FFD925;
   margin-bottom: 12px;
 }
 
@@ -9930,8 +9931,8 @@ body a:hover {
   overflow: hidden;
   padding: 6px;
   border: solid 1px #dddddd;
-  border-top-color: #B00000;
-  border-left-color: #B00000;
+  border-top-color: #FFD925;
+  border-left-color: #FFD925;
   margin-bottom: 12px;
   position: relative;
   min-height: 1px;
@@ -10040,8 +10041,8 @@ body a:hover {
 /* line 7, ../sass/_fotos.sass */
 .widget-album {
   border: solid 1px #eeeeee;
-  border-top-color: #B00000;
-  border-left-color: #B00000;
+  border-top-color: #FFD925;
+  border-left-color: #FFD925;
   background-color: #ffffff;
   display: block;
   color: inherit;
@@ -10055,7 +10056,7 @@ body a:hover {
 }
 /* line 21, ../sass/_fotos.sass */
 .widget-album:hover {
-  background-color: #B00000;
+  background-color: #FFD925;
   color: #fff;
   transition: background-color 0.5s ease;
 }
@@ -10079,7 +10080,7 @@ body a:hover {
 
 /* line 36, ../sass/_fotos.sass */
 .widget-album--add {
-  background-color: #B00000;
+  background-color: #FFD925;
   color: #fff;
 }
 /* line 39, ../sass/_fotos.sass */
@@ -10138,8 +10139,8 @@ body a:hover {
 .widget-album__label {
   position: absolute;
   top: 0;
-  background-color: #B00000;
-  background-color: rgba(176, 0, 0, 0.85);
+  background-color: #FFD925;
+  background-color: rgba(255, 217, 37, 0.85);
   color: #fff;
   padding: 3px 6px;
 }
@@ -10181,7 +10182,7 @@ body a:hover {
 /* line 26, ../sass/_profile-fotos--css-alben.sass */
 .album-fotos #TblEditPhoto .regular-button {
   padding: 5px 10px;
-  background-color: #B00000;
+  background-color: #FFD925;
   color: #fff;
   font-size: 14px;
   margin-right: 0;
@@ -10189,7 +10190,7 @@ body a:hover {
 }
 /* line 33, ../sass/_profile-fotos--css-alben.sass */
 .album-fotos #TblEditPhoto .regular-button:hover {
-  background-color: #7d0000;
+  background-color: #f1c700;
   cursor: auto;
 }
 /* line 38, ../sass/_profile-fotos--css-alben.sass */
@@ -10208,13 +10209,13 @@ body a:hover {
   right: 0;
   font-size: 14px;
   padding: 2px 10px;
-  background-color: #B00000;
+  background-color: #FFD925;
   color: #fff;
   margin-right: 0;
 }
 /* line 54, ../sass/_profile-fotos--css-alben.sass */
 .album-fotos .MainMenu a.add-new-album:hover {
-  background-color: #7d0000;
+  background-color: #f1c700;
   cursor: auto;
 }
 /* line 58, ../sass/_profile-fotos--css-alben.sass */
@@ -10230,7 +10231,7 @@ body a:hover {
   overflow: auto;
   padding-top: 10px;
   background-color: #fff;
-  border: solid 1px #B00000;
+  border: solid 1px #FFD925;
   border-bottom-color: #eee;
   border-right-color: #eee;
   margin-bottom: 60px;
@@ -10261,8 +10262,8 @@ body a:hover {
   background: -webkit-linear-gradient(top, transparent 0%, rgba(58, 166, 231, 0.65) 100%);
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(58, 166, 231, 0.65) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a63aa6e7',GradientType=0 );
-  background-color: #B00000;
-  background-color: rgba(176, 0, 0, 0.8);
+  background-color: #FFD925;
+  background-color: rgba(255, 217, 37, 0.8);
 }
 /* line 101, ../sass/_profile-fotos--css-alben.sass */
 .album-list .item .item-holder h3 a {
@@ -10280,8 +10281,8 @@ body a:hover {
   left: 0;
   right: auto;
   padding: 3px 6px;
-  background-color: #B00000;
-  background-color: rgba(176, 0, 0, 0.8);
+  background-color: #FFD925;
+  background-color: rgba(255, 217, 37, 0.8);
 }
 /* line 117, ../sass/_profile-fotos--css-alben.sass */
 .album-list .item .item-holder .photo-wrapper {
@@ -10296,7 +10297,7 @@ body a:hover {
 /* line 127, ../sass/_profile-fotos--css-alben.sass */
 .album-list .item .item-holder .album-wrapper p {
   height: 25px;
-  background-color: #B00000 !important;
+  background-color: #FFD925 !important;
 }
 /* line 131, ../sass/_profile-fotos--css-alben.sass */
 .album-list .item .item-holder .options {
@@ -10307,8 +10308,8 @@ body a:hover {
 }
 /* line 136, ../sass/_profile-fotos--css-alben.sass */
 .album-list .item .item-holder .options .options-holder {
-  background-color: #B00000;
-  background-color: rgba(176, 0, 0, 0.8);
+  background-color: #FFD925;
+  background-color: rgba(255, 217, 37, 0.8);
   overflow: hidden;
   margin-bottom: 26px;
 }
@@ -10320,8 +10321,8 @@ body a:hover {
 .album-list .item .item-holder .options.display-options-holder {
   position: absolute;
   bottom: 25px;
-  background-color: #B00000;
-  background-color: rgba(176, 0, 0, 0.8);
+  background-color: #FFD925;
+  background-color: rgba(255, 217, 37, 0.8);
 }
 /* line 150, ../sass/_profile-fotos--css-alben.sass */
 .album-list .item .item-holder .options.display-options-holder .edit, .album-list .item .item-holder .options.display-options-holder .delete {
@@ -10389,7 +10390,7 @@ body a:hover {
   height: 150px;
   margin-bottom: 60px;
   border: solid 1px #eee;
-  background-color: #B00000;
+  background-color: #FFD925;
 }
 /* line 206, ../sass/_profile-fotos--css-alben.sass */
 .photos .upload-holder .photo-gallery .fileupload-ui-widget .fileupload-buttonbar {
@@ -10414,7 +10415,7 @@ body a:hover {
 .photos .album-list .main-options .button-wrapper a {
   line-height: 35px;
   padding: 0 8px;
-  background-color: #B00000;
+  background-color: #FFD925;
   color: #fff;
   text-decoration: none;
 }
@@ -10456,7 +10457,7 @@ body a:hover {
   /* line 262, ../sass/_profile-fotos--css-alben.sass */
   .album-fotos .album-list.photo-list .album-list {
     background-color: #fff;
-    border: solid 1px #B00000;
+    border: solid 1px #FFD925;
     border-bottom-color: #eee;
     border-right-color: #eee;
     width: 100%;
@@ -10500,7 +10501,7 @@ body a:hover {
 .album-galary .album-list .album-list {
   margin-top: 10px !important;
   background-color: #fff;
-  border: solid 1px #B00000;
+  border: solid 1px #FFD925;
   border-bottom-color: #eee;
   border-right-color: #eee;
   min-height: 50px;
@@ -10534,8 +10535,8 @@ body a:hover {
   position: absolute;
   top: 0;
   margin: 0;
-  background-color: #B00000;
-  background-color: rgba(176, 0, 0, 0.85);
+  background-color: #FFD925;
+  background-color: rgba(255, 217, 37, 0.85);
 }
 /* line 52, ../sass/_profile-fotos--css-galary.sass */
 .album-list .item .item-holder .album-wrapper strong a {
@@ -10556,7 +10557,7 @@ body a:hover {
   padding: 0px 6px;
   line-height: 16px;
   font-weight: bold;
-  background-color: #B00000;
+  background-color: #FFD925;
   background: -moz-linear-gradient(top, transparent 0%, rgba(58, 166, 231, 0.85) 100%);
   background: -webkit-linear-gradient(top, transparent 0%, rgba(58, 166, 231, 0.85) 100%);
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(58, 166, 231, 0.85) 100%);
@@ -10598,7 +10599,7 @@ body a:hover {
 .photos .photo-comments .comment-composer .styled-button-blue {
   margin-top: 7px;
   padding: 2px 10px;
-  background-color: #B00000;
+  background-color: #FFD925;
   height: auto;
   width: 100%;
   margin-bottom: 50px;
@@ -10666,7 +10667,7 @@ body a:hover {
     padding-bottom: 20px;
     margin: 0 -20px;
     margin-bottom: 15px;
-    border-bottom: solid 1px #B00000;
+    border-bottom: solid 1px #FFD925;
   }
   /* line 161, ../sass/_profile-fotos--css-galary.sass */
   .photos .photo-comments .comment-composer .styled-button-blue {
@@ -10813,7 +10814,7 @@ body a:hover {
   display: inline-block;
   vertical-align: middle;
   padding: 5px 10px;
-  background-color: #e30000;
+  background-color: #ffe258;
   color: #fff;
   font-size: 14px;
   height: 100%;
@@ -10822,12 +10823,12 @@ body a:hover {
 }
 /* line 24, ../sass/_unternehmen.sass */
 #MyWallMid #PageContent .TabsMain .TabsMenu .TabsItem a:hover {
-  background-color: #7d0000;
+  background-color: #f1c700;
   cursor: auto;
 }
 /* line 29, ../sass/_unternehmen.sass */
 #MyWallMid #PageContent .TabsMain .TabsMenu .TabsItem.TabsItemSelected a {
-  background-color: #B00000;
+  background-color: #FFD925;
 }
 /* line 34, ../sass/_unternehmen.sass */
 #MyWallMid #PageContent .TabsMain .TabsContent {
@@ -10837,8 +10838,8 @@ body a:hover {
 #MyWallMid #PageContent .TabsMain .TabsContent .MyCompaniesList .MyCompaniesItem {
   display: flex;
   border: solid 1px #eee;
-  border-top-color: #B00000;
-  border-left-color: #B00000;
+  border-top-color: #FFD925;
+  border-left-color: #FFD925;
   position: relative;
 }
 /* line 43, ../sass/_unternehmen.sass */
@@ -10852,7 +10853,7 @@ body a:hover {
 #MyWallMid #PageContent .TabsMain .TabsContent .MyCompaniesList .MyCompaniesItem .MyCompaniesName span {
   width: auto;
   padding: 10px 5px;
-  color: #B00000;
+  color: #FFD925;
   font-weight: bold;
 }
 /* line 55, ../sass/_unternehmen.sass */
@@ -10967,7 +10968,7 @@ body a:hover {
 }
 /* line 69, ../sass/_chat.sass */
 .chat__message--user p {
-  background-color: #f2696f;
+  background-color: #ec797d;
   color: #fff;
   min-height: 30px;
   padding: 3px 10px;
@@ -10985,7 +10986,7 @@ body a:hover {
 }
 /* line 83, ../sass/_chat.sass */
 .chat__message--partner p {
-  background-color: #e30000;
+  background-color: #ffe258;
   color: #fff;
   min-height: 30px;
   padding: 3px 10px;
@@ -11023,7 +11024,7 @@ body a:hover {
 
 /* line 116, ../sass/_chat.sass */
 .chat__header {
-  background-color: #E1141C;
+  background-color: #DF2027;
   cursor: pointer;
   position: relative;
   height: 30px;
@@ -11044,8 +11045,8 @@ body a:hover {
   right: 0;
   top: 3px;
   height: 100%;
-  background-color: #E1141C;
-  box-shadow: 0px 0px 30px 20px #E1141C;
+  background-color: #DF2027;
+  box-shadow: 0px 0px 30px 20px #DF2027;
 }
 
 /* line 138, ../sass/_chat.sass */
@@ -11175,12 +11176,12 @@ body a:hover {
 
 /* line 236, ../sass/_chat.sass */
 .button--filter-switch--active {
-  background-color: #ee3a41;
+  background-color: #e54d52;
 }
 
 /* line 240, ../sass/_chat.sass */
 .button--filter-switch--deactive {
-  background-color: #fac7c9;
+  background-color: #f9d2d4;
 }
 
 /* line 245, ../sass/_chat.sass */
@@ -11290,7 +11291,7 @@ body a:hover {
 }
 /* line 46, ../sass/_chat-design.sass */
 .chat-users .chat-users-header {
-  background-color: #E1141C;
+  background-color: #DF2027;
   cursor: pointer;
   position: relative;
   height: 30px;
@@ -11376,7 +11377,7 @@ body a:hover {
 }
 /* line 126, ../sass/_chat-design.sass */
 .chat-sessions .chat-session .chat-session-header {
-  background-color: #E1141C;
+  background-color: #DF2027;
   cursor: pointer;
   position: relative;
   height: 30px;
@@ -11446,7 +11447,7 @@ body a:hover {
   display: inline-block;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 16px;
-  background-color: #f2696f;
+  background-color: #ec797d;
   color: #fff;
   min-height: 30px;
   padding: 3px 10px;
@@ -11474,7 +11475,7 @@ body a:hover {
 }
 /* line 208, ../sass/_chat-design.sass */
 .chat-sessions .chat-session .chat-session-body .chat-message--partner .message-content div {
-  background-color: #e30000;
+  background-color: #ffe258;
   padding-left: 10px;
   padding-right: 7px;
   float: right;
@@ -11497,7 +11498,7 @@ body a:hover {
 .chat-sessions .chat-session .chat-session-body .type-message .chat-send {
   width: 20%;
   margin: 0;
-  color: #E1141C;
+  color: #DF2027;
   font-weight: bold;
   text-align: center;
   font-family: "Open Sans", sans-serif;
@@ -11505,7 +11506,7 @@ body a:hover {
 }
 /* line 234, ../sass/_chat-design.sass */
 .chat-sessions .chat-session .chat-session-body .type-message .chat-send:hover {
-  background-color: #E1141C;
+  background-color: #DF2027;
   color: #ffffff;
 }
 
@@ -11621,19 +11622,19 @@ body a:hover {
 
 @keyframes colors {
   0% {
-    stroke: #B00000;
+    stroke: #FFD925;
   }
   25% {
-    stroke: #B00000;
+    stroke: #FFD925;
   }
   50% {
-    stroke: #E1141C;
+    stroke: #DF2027;
   }
   75% {
-    stroke: #E1141C;
+    stroke: #DF2027;
   }
   100% {
-    stroke: #E1141C;
+    stroke: #DF2027;
   }
 }
 @keyframes dash {
@@ -11850,13 +11851,13 @@ body a:hover {
   }
   /* line 52, ../sass/_navbar-mediascreens.sass */
   .navbar__tab--profile.navbar__tab--active img {
-    border: solid 1px #ff4a4a;
+    border: solid 1px #fff4be;
   }
 
   /* line 55, ../sass/_navbar-mediascreens.sass */
   .navbar__tab--active {
     color: #fff;
-    background-color: #B00000;
+    background-color: #FFD925;
   }
 
   /* line 59, ../sass/_navbar-mediascreens.sass */
@@ -11907,7 +11908,7 @@ body a:hover {
   .navbar__section__title {
     display: block;
     width: 100%;
-    color: #B00000;
+    color: #FFD925;
     text-align: center;
     font-family: "Pacifico", cursive;
     margin-top: 0px;
@@ -11922,7 +11923,7 @@ body a:hover {
 
   /* line 104, ../sass/_navbar-mediascreens.sass */
   .navbar-form--mobile.navbar-form {
-    border-color: #B00000;
+    border-color: #FFD925;
   }
   /* line 107, ../sass/_navbar-mediascreens.sass */
   .navbar-form--mobile .form-control {
@@ -11989,7 +11990,7 @@ body a:hover {
     border: none;
     margin: 0;
     background-color: transparent;
-    color: #f05b61;
+    color: #ea6c70;
   }
   /* line 161, ../sass/_navbar-mediascreens.sass */
   .navbar.grand-navbar .nav-button .material-icons, .navbar.grand-navbar .nav-button:active .material-icons, .navbar.grand-navbar .nav-button:focus .material-icons, .navbar.grand-navbar .nav-button:visited .material-icons {
@@ -11998,11 +11999,11 @@ body a:hover {
 
   /* line 164, ../sass/_navbar-mediascreens.sass */
   .dropdown-menu--starters .dropdown-button--starters {
-    color: #f48185;
+    color: #ef9093;
   }
   /* line 166, ../sass/_navbar-mediascreens.sass */
   .dropdown-menu--starters .dropdown-button--starters.dropdown-button--noeffect:hover {
-    color: #f48185;
+    color: #ef9093;
   }
 
   /* line 169, ../sass/_navbar-mediascreens.sass */
@@ -12017,7 +12018,7 @@ body a:hover {
   /* line 174, ../sass/_navbar-mediascreens.sass */
   .navbar__matching-button {
     margin: 0;
-    background-color: #f05258;
+    background-color: #e96368;
     color: #eee;
     float: none;
     font-weight: bold;
@@ -12041,7 +12042,7 @@ body a:hover {
   /* line 192, ../sass/_navbar-mediascreens.sass */
   .navbar__matching-button--active {
     color: #fff;
-    background-color: #E1141C;
+    background-color: #DF2027;
   }
 
   /* line 197, ../sass/_navbar-mediascreens.sass */
@@ -12077,12 +12078,12 @@ body a:hover {
   }
   /* line 221, ../sass/_navbar-mediascreens.sass */
   .navbar-matching .navbar-matching__filters .navbar-matching__filter-switch a:hover {
-    color: #E1141C;
+    color: #DF2027;
   }
   /* line 225, ../sass/_navbar-mediascreens.sass */
   .navbar-matching .navbar-matching__filters .navbar-matching__filter-switch.is-selected-right a.element-right {
     color: #333;
-    border-bottom: solid 1px #E1141C;
+    border-bottom: solid 1px #DF2027;
   }
   /* line 229, ../sass/_navbar-mediascreens.sass */
   .navbar-matching .navbar-matching__filters .navbar-matching__filter-switch.is-selected-right .select-toggle {
@@ -12095,7 +12096,7 @@ body a:hover {
   /* line 237, ../sass/_navbar-mediascreens.sass */
   .navbar-matching .navbar-matching__filters .navbar-matching__filter-switch.is-selected-left a.element-left {
     color: #333;
-    border-bottom: solid 1px #E1141C;
+    border-bottom: solid 1px #DF2027;
   }
   /* line 241, ../sass/_navbar-mediascreens.sass */
   .navbar-matching .navbar-matching__filters .navbar-matching__filter-switch.is-selected-left .select-toggle {
@@ -12218,7 +12219,7 @@ body a:hover {
     background-color: transparent;
     border: none;
     margin-bottom: 20px;
-    color: #E1141C;
+    color: #DF2027;
     outline: none;
   }
 
@@ -12300,7 +12301,7 @@ body a:hover {
   /* line 393, ../sass/_navbar-mediascreens.sass */
   .navbar__matching-button {
     margin: 0;
-    background-color: #f05258;
+    background-color: #e96368;
     color: #eee;
     float: none;
     font-weight: bold;
@@ -12324,7 +12325,7 @@ body a:hover {
   /* line 411, ../sass/_navbar-mediascreens.sass */
   .navbar__matching-button--active {
     color: #fff;
-    background-color: #E1141C;
+    background-color: #DF2027;
   }
 
   /* line 416, ../sass/_navbar-mediascreens.sass */
@@ -12360,12 +12361,12 @@ body a:hover {
   }
   /* line 439, ../sass/_navbar-mediascreens.sass */
   .navbar-matching .navbar-matching__filters .navbar-matching__filter-switch a:hover {
-    color: #E1141C;
+    color: #DF2027;
   }
   /* line 443, ../sass/_navbar-mediascreens.sass */
   .navbar-matching .navbar-matching__filters .navbar-matching__filter-switch.is-selected-right a.element-right {
     color: #333;
-    border-bottom: solid 1px #E1141C;
+    border-bottom: solid 1px #DF2027;
   }
   /* line 447, ../sass/_navbar-mediascreens.sass */
   .navbar-matching .navbar-matching__filters .navbar-matching__filter-switch.is-selected-right .select-toggle {
@@ -12378,7 +12379,7 @@ body a:hover {
   /* line 455, ../sass/_navbar-mediascreens.sass */
   .navbar-matching .navbar-matching__filters .navbar-matching__filter-switch.is-selected-left a.element-left {
     color: #333;
-    border-bottom: solid 1px #E1141C;
+    border-bottom: solid 1px #DF2027;
   }
   /* line 459, ../sass/_navbar-mediascreens.sass */
   .navbar-matching .navbar-matching__filters .navbar-matching__filter-switch.is-selected-left .select-toggle {
@@ -12501,7 +12502,7 @@ body a:hover {
     background-color: transparent;
     border: none;
     margin-bottom: 20px;
-    color: #E1141C;
+    color: #DF2027;
     outline: none;
   }
 }

@@ -15,7 +15,7 @@ window.contentLandingPage = [
         positionY: "50%"
       },
       motiv: {
-        src: "gfx/landing-page/2000px-Koeln_Adler.svg.png"
+        src: "gfx/landing-page/moers-wappen_fuer-alle_rgb.png"
       }
     },
     inputFields: [
