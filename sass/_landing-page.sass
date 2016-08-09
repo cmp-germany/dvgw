@@ -10,14 +10,20 @@ $slide--statement-height: 700px
   padding-bottom: $slide--padding-bottom
 
   &__motiv-picture
-    margin-bottom: -90px
+    // margin-bottom: -90px
+    max-width: 300px
+    width: 100%
+    margin-top: 30px
+    margin-left: auto
+    margin-right: auto
+
 
     &--xs
       margin-bottom: 0
       margin-top: 30px
       margin-left: auto
       margin-right: auto
-      max-width: 400px
+      max-width: 250px
       width: 100%
 
 .slide--with-background
@@ -44,6 +50,9 @@ $slide--statement-height: 700px
 .slide--with-background__text
   color: #fff
   font-weight: lighter
+  background-color: rgba(0, 0, 0, 0.5)
+  +box-shadow(#000 0 0 50px)
+
 
 .slide--title
   background-attachment: scroll
@@ -84,7 +93,7 @@ $padding-negative-text: 3px
 
 
 .register-form
-  background-color: rgba(255, 255, 255, 0.7)
+  background-color: rgba(255, 255, 255, 0.85)
 
   padding: 40px
   max-width: 555px
@@ -157,8 +166,7 @@ $padding-negative-text: 3px
 
 
 .navbar-brand-img
-  height: 50px
-  margin-top: -15px
+  margin-top: -10px
   width: auto
 
 .navbar-brand.display

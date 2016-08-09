@@ -165,7 +165,7 @@ var TitleWithRegisterForm = React.createClass({
         <div className="slide--with-background__inner-div">
           <div className="container">
             <div className="row">
-              <div className="col-sm-5 slide__title-introduction">
+              <div className="col-md-5 slide__title-introduction">
                 <h1><span className="slide__white-negative-text">{data.contents.title}</span></h1>
                 <div className="slide--with-background__text">
                   <p>{data.contents.text}</p>
@@ -175,7 +175,7 @@ var TitleWithRegisterForm = React.createClass({
                   <img src={data.pictures.motiv.src} alt="motiv" className="visible-xs-block img-responsive slide__motiv-picture slide__motiv-picture--xs" />
                 </IfNotNullModule>
               </div>
-              <div className="col-sm-6 col-sm-offset-1">
+              <div className="col-md-5 col-md-offset-2">
                 <form id="register-form" className="register-form register-form--slide">
                   <p className="register-form__intro-text text-center">{data.contents.formTitle}</p>
 

@@ -1,91 +1,69 @@
 window.contentLandingPage = [
   { module: "TitleWithRegisterForm",
     contents: {
-      title: "Right now there are 1954 export opportunities. Find yours.",
+      title: "Die Stadt Köln und ihre gesamte Verwaltung. Für Sie erreichbar auf einer einzigen Plattform.",
       text:
-        "An online resource to help exporters both identify the best export opportunities and find the information and key contacts needed to achieve success.",
-      formTitle: "Register now and get your 1-Year-Free-Subscription.",
-      buttonAdditionalText: 'By clicking on the button "Become a member now", you agree our terms and conditions.',
-      buttonText: "Become a member now"
+        "Die Stadtverwaltung Köln bietet mit dieser Plattform eine einheitliche Plattform um auf alle Dienstleistungen der Stadtverwaltung zugreifen zu können. Außerdem haben Sie die Möglichkeit, mit allen Ämtern direkt zu kommunizieren und Ihre Anliegen schnell, unkompliziert und ohne großen Aufwand direkt online zu klären.",
+      formTitle: "Registrieren Sie sich gleich jetzt und nutzen Sie die digitalen Serviceangebote der Stadt Köln.",
+      buttonAdditionalText: 'Durch das Klicken auf den Button "Jetzt Registrieren" bestätigen Sie, dass Sie mit unseren allgemeinen Benutzungsbedingungen einverstanden sind.',
+      buttonText: "Jetzt Registrieren"
     },
     pictures: {
       background: {
-        src: "gfx/landing-page/photo-1451187580459-43490279c0fa.jpeg",
-        positionX: "100%",
+        src: "gfx/landing-page/photo-1462630957021-a512744c5234.jpeg",
+        positionX: "500%",
         positionY: "50%"
       },
       motiv: {
-        src: "gfx/landing-page/exporting-great.png"
+        src: "gfx/landing-page/2000px-Koeln_Adler.svg.png"
       }
     },
     inputFields: [
       {
         inputType: "text",
-        label: "Name of the company"
-      },
-      {
-        inputType: "select",
-        options: [
-          "Category 1",
-          "Category 2",
-          "Category 3",
-          "Category 4"
-        ]
-      },
-      {
-        inputType: "select",
-        options: [
-          "Branch of industry 1",
-          "Branch of industry 2",
-          "Branch of industry 3",
-          "Branch of industry 4"
-        ]
-      },
-      {
-        inputType: "text",
-        label: "User name"
+        label: "Ihr Name"
       },
       {
         inputType: "email",
-        label: "E-Mail adress"
+        label: "Ihre E-Mail Adresse"
       },
       {
         inputType: "password",
-        label: "Password"
+        label: "Vergeben Sie Ihr Passwort"
       },
       {
         inputType: "password",
-        label: "Repeat passwort"
+        label: "Wiederholen Sie Ihr Passwort"
       }
     ]
   },
   { module: "KeyFeatures",
     features: [
       {
-        title: "Create a company profile",
-        text: "Show what makes you unique. Create a company profile describing your offers and services and introduce yourself and your employees to other platform members.",
-        icon: "business",
+        title: "Ihre Stadt. Digital.",
+        text: "Es ist wie ein digitales Rathaus: Besuchen Sie alle Ämter online, erledigen Sie ihre Aufgaben und nehmen Sie die Services Ihrer Stadt in Anspruch. All dies ist nur ein Mausklick weit entfernt.",
+        icon: "location_city",
         button: {
-          text: "Register now",
+          text: "Registrieren Sie sich jetzt",
           url: "#register-form"
         }
       },
       {
-        title: "Find your target group",
-        text: "Keyword search, active matching and groups will help you to find the right person on the platform.",
-        icon: "group",
+        title: "Stellen Sie Ihre Anfrage.",
+        text: "Sie haben ein Anliegen, brauchen eine bestimmte Bescheinigung, möchten eine Beantragung machen? Nehmen Sie jetzt unkompliziert und schnell mit dem richtigen Amt und dem richtigen Ansprechpartner Kontakt auf.",
+        icon: "question_answer",
         button: {
-          text: "Register now",
+          text: "Registrieren Sie sich jetzt",
           url: "#register-form"
         }
       }
     ]
   },
   { module: "SlideStatement",
-    title: "We make knowledge accessible, enabling you to connect the dots. Quickly, safely and successfully.",
+    title: "Sparen Sie Zeit und Kosten und profitieren Sie von den zusätzlichen Serviceangeboten der digitalen Verwaltung.",
     background: {
-      src: "gfx/landing-page/photo-1468420227854-e792779a87d3.jpeg",
-      positionX: "90%",
+      src: "gfx/landing-page/fotolia_83622647.jpg",
+      positionX: "50%",
       positionY: "50%"
     }
   },
@@ -93,52 +71,52 @@ window.contentLandingPage = [
     cards: [
       {
         type: "people",
-        title: "British Airways",
-        text: "British Airways is a full service global airline, offering year-round low fares with an extensive global route network flying to and from centrally-located airports.",
-        url: "http://www.britishairways.com/",
-        picture: "gfx/landing-page/people/BA_GooglePlus_profImg_250x250_v01.jpg"
+        title: "Seniorenvertretung",
+        text: "Die Seniorenvertretung der Stadt Köln ist ehrenamtlich, überkonfessionell und überparteilich tätig.",
+        url: "http://www.stadt-koeln.de/politik-und-verwaltung/wahlen/seniorenvertretung",
+        picture: "gfx/landing-page/people/bilder-wahlen-3_2seniorenvertretung2016-320px_320.jpg"
       },
       {
         type: "people",
-        title: "Crowdfunder.co.uk",
-        text: "Crowdfunder enables you to setup your crowdfunding projects, create your crowd and collect payments from your backers. Everything you need to fund your great idea.",
-        url: "http://www.crowdfunder.co.uk/",
-        picture: "gfx/landing-page/people/4RB6bo_Z.jpg"
+        title: "Kinderbetreuung",
+        text: "Informieren Sie sich in unserer Kartenanwendung mit Suchfunktion über die Betreuungsmöglichkeiten in städtischen Kindergärten und Kindergärten in freier Trägerschaft.",
+        url: "http://www.stadt-koeln.de/leben-in-koeln/familie-kinder/betreuung/suche-nach-kindertageseinrichtungen-koeln",
+        picture: "gfx/landing-page/people/bilder-kinder-und-jugend-3_2fittosize__320_213_ea3bb37ea56d2f1b1235cf6ce17d72be_kind-beim-spielen_320.jpg"
       },
       {
         type: "people",
-        title: "NatWest",
-        text: "NatWest have one simple goal: To be the best bank for customer service, by 2020. NatWest provide a full range of banking and insurance services to personal, business and commercial customers.",
+        title: "Gewerbemeldestelle",
+        text: "In der Abteilung für Gewerbeangelegenheiten können Sie Ihr Gewerbe anmelden und falls nötig, Genehmigungen einholen.",
         url: "http://www.business.natwest.com/business.html",
-        picture: "gfx/landing-page/people/10297809_426656290804010_8049748194267470874_n.png"
+        picture: "gfx/landing-page/people/bilder-eaportal-16_9fittosize__640_360_c70cd4776d8026e482c276730944956b_einkaufen_textil_768.jpg"
       },
       {
         type: "people",
-        title: "ParcelHero",
-        text: "Providing outstanding service is at the heart of the ParcelHero philosophy, we want to make a real difference to our customers.",
-        url: "https://www.parcelhero.com/",
-        picture: "gfx/landing-page/people/photo.png"
+        title: "Volkshochschule Köln",
+        text: "Mit unserer Bildungs- und Weiterbildungsberatung möchten wir Sie in Ihren Weiterbildungsaktivitäten begleiten. Nehmen Sie sich etwas Zeit und nutzen Sie das kostenlose und vielfältige Beratungsangebot der Volkshochschule!",
+        url: "https://vhs-koeln.de/",
+        picture: "gfx/landing-page/people/FS5639dc1393e32.jpg"
       },
       {
         type: "people",
-        title: "Santander",
-        text: "For medium to large businesses looking for a relationship managed service or requiring more comprehensive banking, international, or larger lending needs.",
-        url: "https://www.santandercb.co.uk/",
-        picture: "gfx/landing-page/people/santander.gif"
+        title: "Kfz-Zulassungsstelle",
+        text: "Sie möchten ein Auto anmelden oder Ihre Fahrzeugpapiere ändern lassen? Vermeiden Sie Wartezeiten und nutzen Sie unsere Online Services.",
+        url: "https://formular.stadt-koeln.de/terminvereinbarung/index.php?c_id=10032",
+        picture: "gfx/landing-page/people/fotolia_102875889.jpg"
       },
       {
         type: "register",
-        text: "Access thousands of influential global contacts, try it free for 1 year.",
-        buttonText: "Register now",
+        text: "Nutzen Sie die Serviceangebote Ihrer Stadt zeit- und ortsunabhängig.",
+        buttonText: "Registrieren Sie sich jetzt",
         url: "#register-form"
       }
     ]
   },
   { module: "SlideStatement",
-    title: "Get connected with the world of success.",
+    title: "Nutzen Sie die Serviceangebote der Stadt Köln: Einfach, schnell, online.",
     background: {
-      src: "gfx/landing-page/photo-1460551204960-763bc82b7d8f.jpeg",
-      positionX: "55%",
+      src: "gfx/landing-page/fotolia_115463428.jpg",
+      positionX: "50%",
       positionY: "50%"
     }
   }
