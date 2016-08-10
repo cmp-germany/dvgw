@@ -81,7 +81,7 @@ window.contentLandingPage = [
         title: "Flüchtlinge in Moers",
         text: "In Moers engagieren sich zahlreiche Institutionen, Verbände und Kirchengemeinden in der Flüchtlingshilfe. Hier finden Sie die Möglichkeit, Hilfsangebote selbst einzustellen und abzurufen.",
         url: "http://www.stadt-koeln.de/leben-in-koeln/familie-kinder/betreuung/suche-nach-kindertageseinrichtungen-koeln",
-        picture: "gfx/landing-page/people/service-rechts.jpg"
+        picture: "gfx/landing-page/people/said_vhs_2015_presse.jpg"
       },
       {
         type: "people",

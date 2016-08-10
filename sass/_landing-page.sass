@@ -65,6 +65,8 @@ $slide--statement-height: 700px
 
 .slide__statement
   margin-top: 400px
+  +sm
+    margin-top: 350px
 
 .slide--people
   //background-color: rgba(19, 35, 51, 0.05)
@@ -134,31 +136,42 @@ $color-background-negative-text: lighten($color-primary, 30)
   margin-right: auto
   margin-bottom: 30px
 
-.profile-card__innerDiv
-  padding: 10px
-  border-top: 1px solid $color-primary
-  border-left: 1px solid $color-primary
-  border-bottom: 1px solid #eee
-  border-right: 1px solid #eee
-  background-color: #fff
-  height: 145px
+.profile-card
 
-.profile-card__image
-  padding-left: 0
+  &__innerDiv
+    padding: 10px
+    border-top: 1px solid $color-primary
+    border-left: 1px solid $color-primary
+    border-bottom: 1px solid #eee
+    border-right: 1px solid #eee
+    background-color: #fff
+    height: 145px
+    +sm
+      height: 165px
 
+  &__image
+    padding-left: 0
 
-.profile-card__text
-  font-size: 12px
-  padding: 0
+  &__text
+    font-size: 12px
+    padding: 0
 
-.profile-card__name
-  font-weight: bold
+  &__name
+    font-weight: bold
+
+  &__description
+    height: 95px
+    +sm
+      height: 125px
+
 
 
 .register-card__innerDiv
   background-color: $color-primary
   padding: 20px
   height: 145px
+  +sm
+    height: 165px
 
 .register-card__text
   color: #fff
