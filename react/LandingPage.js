@@ -81,7 +81,7 @@ var KeyFeatureModule = React.createClass({
           <p className="key-feature__description">
             {data.text}
           </p>
-          <a href={data.button.url} className="btn btn-important">{data.button.text}</a>
+          <a href={data.button.url} className="btn btn-primary">{data.button.text}</a>
         </div>
       </div>
     );
@@ -182,7 +182,7 @@ var TitleWithRegisterForm = React.createClass({
                   <InputFieldsList fields={data.inputFields} />
 
                   <p className="register-form__info-text">{data.contents.buttonAdditionalText}</p>
-                  <button type="submit" className="btn btn-important btn-block">{data.contents.buttonText}</button>
+                  <button type="submit" className="btn btn-primary btn-block">{data.contents.buttonText}</button>
                 </form>
               </div>
             </div>

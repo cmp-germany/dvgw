@@ -60,9 +60,9 @@ window.contentLandingPage = [
     ]
   },
   { module: "SlideStatement",
-    title: "Sparen Sie Zeit und Kosten und profitieren Sie von den zusätzlichen Serviceangeboten der digitalen Verwaltung.",
+    title: "Sparen Sie sich den Weg zum Amt und profitieren Sie von den zusätzlichen Serviceangeboten der digitalen Verwaltung.",
     background: {
-      src: "gfx/landing-page/fotolia_83622647.jpg",
+      src: "gfx/landing-page/fotolia_101328222.jpg",
       positionX: "50%",
       positionY: "50%"
     }
@@ -71,17 +71,17 @@ window.contentLandingPage = [
     cards: [
       {
         type: "people",
-        title: "Seniorenvertretung",
-        text: "Die Seniorenvertretung der Stadt Moers ist ehrenamtlich, überkonfessionell und überparteilich tätig.",
-        url: "http://www.stadt-koeln.de/politik-und-verwaltung/wahlen/seniorenvertretung",
-        picture: "gfx/landing-page/people/bilder-wahlen-3_2seniorenvertretung2016-320px_320.jpg"
+        title: "Bürgerservice",
+        text: "Das Team des Bürgerservices steht ihnen für  verschiedene  Dienstleistungen zur Verfügung. Hierbei handelt es sich um die Angelegenheiten aus den unterschiedlichsten Rechtsgebieten.",
+        url: "https://www.moers.de/de/ansprechpartner/fachdienst-4.2.1-buergerservice-innenstadt/",
+        picture: "gfx/landing-page/people/service-rechts.jpg"
       },
       {
         type: "people",
-        title: "Kinderbetreuung",
-        text: "Informieren Sie sich in unserer Kartenanwendung mit Suchfunktion über die Betreuungsmöglichkeiten in städtischen Kindergärten und Kindergärten in freier Trägerschaft.",
+        title: "Flüchtlinge in Moers",
+        text: "In Moers engagieren sich zahlreiche Institutionen, Verbände und Kirchengemeinden in der Flüchtlingshilfe. Hier finden Sie die Möglichkeit, Hilfsangebote selbst einzustellen und abzurufen.",
         url: "http://www.stadt-koeln.de/leben-in-koeln/familie-kinder/betreuung/suche-nach-kindertageseinrichtungen-koeln",
-        picture: "gfx/landing-page/people/bilder-kinder-und-jugend-3_2fittosize__320_213_ea3bb37ea56d2f1b1235cf6ce17d72be_kind-beim-spielen_320.jpg"
+        picture: "gfx/landing-page/people/service-rechts.jpg"
       },
       {
         type: "people",
@@ -115,7 +115,7 @@ window.contentLandingPage = [
   { module: "SlideStatement",
     title: "Nutzen Sie die Serviceangebote der Stadt Moers: Einfach, schnell, online.",
     background: {
-      src: "gfx/landing-page/fotolia_115463428.jpg",
+      src: "gfx/landing-page/fotolia_87040465.jpg",
       positionX: "50%",
       positionY: "50%"
     }
