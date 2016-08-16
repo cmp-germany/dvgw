@@ -10,7 +10,7 @@ window.contentLandingPage = [
     },
     pictures: {
       background: {
-        src: "gfx/landing-page/fotolia_95332149.jpg",
+        src: "gfx/dvgw/Fotolia_95332149_L.jpg",
         positionX: "50%",
         positionY: "50%"
       },
@@ -62,7 +62,7 @@ window.contentLandingPage = [
   { module: "SlideStatement",
     title: "Maßstäbe setzen. Für Erdgas und Trinkwasser.",
     background: {
-      src: "gfx/landing-page/fotolia_112094394.jpg",
+      src: "gfx/dvgw/Fotolia_112094394_L.jpg",
       positionX: "50%",
       positionY: "50%"
     }
@@ -74,7 +74,7 @@ window.contentLandingPage = [
         title: "Gas",
         text: "In punkto Sicherheit und Umweltschutz belegt Deutschland im internationalen Vergleich einen Spitzenplatz bei der Gasversorgung. Der DVGW stellt mit seinen Gremien das hohe Niveau der Gasversorgung auch in Zukunft sicher.",
         url: "http://www.dvgw.de/gas/",
-        picture: "gfx/landing-page/people/gas.jpg"
+        picture: "gfx/dvgw/Fotolia_91606037_XS_cropped.jpg"
       },
       {
         type: "people",
@@ -115,7 +115,7 @@ window.contentLandingPage = [
   { module: "SlideStatement",
     title: "Nutzen Sie die Serviceangebote des DVGW: Einfach, schnell, online.",
     background: {
-      src: "gfx/landing-page/fotolia_112133071.jpg",
+      src: "gfx/dvgw/Fotolia_112133071_L.jpg",
       positionX: "50%",
       positionY: "50%"
     }
