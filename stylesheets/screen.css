@@ -8226,7 +8226,7 @@ input[type=range].form-control--range-navbar:focus::-ms-fill-upper {
 }
 
 /* line 141, ../sass/_landing-page.sass */
-.profile-card__innerDiv {
+.profile-card__innerDiv, .MembersItem {
   padding: 10px;
   border-top: 1px solid #A8AD00;
   border-left: 1px solid #A8AD00;
@@ -8237,7 +8237,7 @@ input[type=range].form-control--range-navbar:focus::-ms-fill-upper {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 141, ../sass/_landing-page.sass */
-  .profile-card__innerDiv {
+  .profile-card__innerDiv, .MembersItem {
     height: 165px;
   }
 }
@@ -9152,6 +9152,79 @@ body a:hover {
 /* line 124, ../sass/_profile-about.sass */
 .profile-infos__read {
   margin-top: 7px;
+}
+
+/* line 14, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.profile-infos__members:before, .profile-infos__members:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.profile-infos__members:after {
+  clear: both;
+}
+
+/* line 139, ../sass/_profile-about.sass */
+.MembersItem {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: auto;
+  position: relative;
+}
+/* line 14, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.MembersItem:before, .MembersItem:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.MembersItem:after {
+  clear: both;
+}
+
+/* line 147, ../sass/_profile-about.sass */
+.MembersAvatar, .MembersName, .MembersPosition, .MembersEmail, .MembersPhone {
+  float: left;
+}
+
+/* line 151, ../sass/_profile-about.sass */
+.MembersAvatar {
+  margin-right: 10px;
+}
+/* line 154, ../sass/_profile-about.sass */
+.MembersAvatar .avatar {
+  width: 80px;
+  height: 80px;
+}
+
+/* line 158, ../sass/_profile-about.sass */
+.MembersName {
+  width: calc(70% - 90px);
+}
+
+/* line 161, ../sass/_profile-about.sass */
+.MembersPosition {
+  width: calc(30% - 90px);
+}
+
+/* line 164, ../sass/_profile-about.sass */
+.MembersEmail {
+  width: calc(100% - 90px);
+}
+
+/* line 167, ../sass/_profile-about.sass */
+.MembersPhone {
+  width: calc(100% - 90px);
+}
+
+/* line 170, ../sass/_profile-about.sass */
+.MembersContact {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
 }
 
 /* line 1, ../sass/_profile-wall.sass */

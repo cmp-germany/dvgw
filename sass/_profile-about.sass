@@ -127,3 +127,47 @@ $profile-fix-size: $profile-picture-size + $profile-buttons-size
 .profile-infos__desc
 
 .profile-infos__map
+
+.profile-infos__members
+  +clearfix
+
+
+$avatar-size: 80px
+$avatar-margin: 10px
+$avatar-sum: $avatar-size + $avatar-margin
+
+.MembersItem
+  +make-xs-column(12)
+  +clearfix
+  @extend .profile-card__innerDiv
+  height: auto
+  position: relative
+
+
+.MembersAvatar, .MembersName, .MembersPosition, .MembersEmail, .MembersPhone
+  // display: inline-block
+  float: left
+
+.MembersAvatar
+  margin-right: $avatar-margin
+
+  .avatar
+    width: $avatar-size
+    height: $avatar-size
+
+.MembersName
+  width: calc(70% - #{$avatar-sum})
+
+.MembersPosition
+  width: calc(30% - #{$avatar-sum})
+
+.MembersEmail
+  width: calc(100% - #{$avatar-sum})
+
+.MembersPhone
+  width: calc(100% - #{$avatar-sum})
+
+.MembersContact
+  position: absolute
+  right: 10px
+  bottom: 10px

@@ -60,7 +60,14 @@ var users = {
       "Information Technology - Supplies"
     ],
     "members": [
-      
+      {
+        "id": "wolfgang-adams",
+        "name": "Wolfgang Adams",
+        "email": "w.adams@gfke.eu",
+        "position": "Vertrieb",
+        "picture": "gfx/profilbilder/profilbild-adams.jpg",
+        "online": false
+      }
     ]
   },
 
@@ -159,6 +166,21 @@ var users = {
     "zip": "50259",
     "city": "Pulheim",
     "website": "http://www.gfke.eu/",
+    "timezone": "MESZ",
+    "isOnline": false
+  },
+
+
+  "wolfgang-adams": {
+    "id": "wolfgang-adams",
+    "name": "Wolfgang Adams",
+    "wallpaper": "gfx/wallpaper/wallpaper-7.jpeg",
+    "profileImage": "gfx/profilbilder/profilbild-adams.jpg",
+    "isCompanyProfile": false,
+    "street": "August-Euler-Str. 3",
+    "zip": "50259",
+    "city": "Pulheim",
+    "website": "",
     "timezone": "MESZ",
     "isOnline": false
   },
