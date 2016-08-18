@@ -32,7 +32,7 @@ var users = {
 
 
   "green-gate": {
-    "id": "company-of-imagination",
+    "id": "green-gate",
     "name": "GreenGate AG",
     "wallpaper": "gfx/wallpaper/wallpaper-green-gate.jpg",
     "profileImage": "gfx/profilbilder/green-gate-logo.jpg",

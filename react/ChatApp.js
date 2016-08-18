@@ -299,12 +299,12 @@ var ChatApp = React.createClass({
   },
 
   componentDidMount: function() {
-    this.signalR = {};
-    this.signalR.chat = $.connection.chat;
-    this.signalR.chat.connection.start({ transport: 'longPolling' }).always(function(e){
-      console.log('isCrossDomain: ' + this.signalR.chat.connection.isCrossDomain());
-      console.log(e);
-    }.bind(this));
+    // this.signalR = {};
+    // this.signalR.chat = $.connection.chat;
+    // this.signalR.chat.connection.start({ transport: 'longPolling' }).always(function(e){
+    //   console.log('isCrossDomain: ' + this.signalR.chat.connection.isCrossDomain());
+    //   console.log(e);
+    // }.bind(this));
     //console.log("This is a test.");
   },
 
@@ -364,7 +364,7 @@ var ChatApp = React.createClass({
   }
 });
 
-reactChatApp = ReactDOM.render(
+window.reactChatApp = ReactDOM.render(
   <ChatApp />,
   document.getElementById('chat-app')
 );
