@@ -275,7 +275,7 @@ var Member = React.createClass({
         <div className="MembersContact">
           <span title="Euroglas Verpackungs GmbH ist offline" className="ChatStatusIcon CompanyMembersChatStatusIcon UserMediaOfflineIcon"></span>
           <ul>
-            <li className="profile-header__action-button">
+            <li>
               <a
                 href={'javascript:reactChatApp.addChat("'+data.id+'");'}
                 title={"Mit "+data.name+" chatten"}
