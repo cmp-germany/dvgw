@@ -9223,8 +9223,25 @@ body a:hover {
 /* line 170, ../sass/_profile-about.sass */
 .MembersContact {
   position: absolute;
-  right: 10px;
-  bottom: 10px;
+  right: 5px;
+  bottom: 0;
+}
+/* line 175, ../sass/_profile-about.sass */
+.MembersContact * {
+  float: left;
+}
+/* line 178, ../sass/_profile-about.sass */
+.MembersContact ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+/* line 181, ../sass/_profile-about.sass */
+.MembersContact li {
+  list-style: none;
+}
+/* line 184, ../sass/_profile-about.sass */
+.MembersContact .CompanyMembersChatIcon {
+  margin-left: 5px;
 }
 
 /* line 1, ../sass/_profile-wall.sass */
