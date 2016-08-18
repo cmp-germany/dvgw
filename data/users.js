@@ -33,31 +33,34 @@ var users = {
 
   "green-gate": {
     "id": "company-of-imagination",
-    "name": "Company of Imagination Ltd.",
-    "wallpaper": "gfx/wallpaper_company.jpg",
+    "name": "GreenGate AG",
+    "wallpaper": "gfx/wallpaper/wallpaper-green-gate.jpg",
     "profileImage": "gfx/profilbilder/green-gate-logo.jpg",
     "isCompanyProfile": true,
     "companyInfo": {
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "name": "Gesellschaft für kommunalen Einkauf mbH",
-      "branche": "eprocurement",
-      "mainLocation": "Pulheim",
+      "desc": "Die GreenGate AG mit Sitz in Windeck an der Sieg entwickelt seit dem Jahr 2000 hoch anpassungsfähige und innovative Softwarelösungen für die strategische Instandhaltung von Anlagen und Infrastrukturen. Schwerpunkte liegen auf den produzierenden Branchen (z.B.: Automobilzulieferer), und der Energie- und Wasserwirtschaft (z.B.: Stadtwerken).",
+      "name": "GreenGate AG",
+      "branche": "Softwarelösungen",
+      "mainLocation": "Windeck",
       "country": "Deutschland",
-      "email": "w.adams@gfke.eu",
-      "tel": "02238958590-37",
+      "email": "info@greengate.de",
+      "tel": "+49 2243 92307 0",
       "category": "Startup"
     },
     "mapData": {
-      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2511.601647372274!2d6.824141315273979!3d50.98655335647221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf3098c3c70c7b%3A0x4b8b986d52855bf5!2sAugust-Euler-Stra%C3%9Fe+3%2C+50259+Pulheim%2C+Deutschland!5e0!3m2!1sde!2sus!4v1467286780051"
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2522.751100718424!2d7.508347315743358!3d50.78018737952219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bebfdd58c96889%3A0x2db30323c8d022f2!2sAlte+Br%C3%BCcke+6%2C+51570+Windeck!5e0!3m2!1sde!2sde!4v1471512830308"
     },
-    "street": "August-Euler-Str. 3",
-    "zip": "50259",
-    "city": "Pulheim",
-    "website": "http://www.gfke.eu/",
+    "street": "Alte Brücke 6",
+    "zip": "51570",
+    "city": "Windeck",
+    "website": "http://www.greengate.biz/",
     "timezone": "MESZ",
     "keywords": [
       "Information Technology",
       "Information Technology - Supplies"
+    ],
+    "members": [
+      
     ]
   },
 
