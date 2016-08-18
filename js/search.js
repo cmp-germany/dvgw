@@ -45,6 +45,20 @@ var content = {
     resultGruppen : []
   },
 
+  LHGasAnpassung : {
+    searchTitle : "L-/H-Gas-Anpassung",
+    resultPersonen : [],
+    resultUnternehmen : [
+      {
+        name : 'GreenGate AG',
+        bild : 'gfx/profilbilder/green-gate-logo.jpg',
+        onlineStatus : false,
+        profil : 'profile-about.html?userId=green-gate'
+      }
+    ],
+    resultGruppen : []
+  },
+
   institutionelleInvestoren : {
     searchTitle : "Institutionelle Investoren",
     resultPersonen : [],
@@ -204,7 +218,7 @@ function postResults(type) {
     var innerHTML =
     '<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">'+
       '<div class="kontakt-card">'+
-        '<a href="profile-about.html?userId=volker-miller">'+
+        '<a href="'+result[i].profil+'">'+
           '<img class="kontakt-card__thumbnail" src="'+result[i].bild+'" alt="Thumbnail" />'+
         '</a>'+
         '<div class="kontakt-card__name">'+
