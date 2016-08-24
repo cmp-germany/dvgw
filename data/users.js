@@ -53,7 +53,7 @@ var users = {
     "street": "Alte Brücke 6",
     "zip": "51570",
     "city": "Windeck",
-    "website": "http://www.greengate.biz/",
+    "website": "http://www.greengate.de/",
     "timezone": "MESZ",
     "keywords": [
       "Information Technology",
