@@ -177,9 +177,9 @@ var users = {
     "wallpaper": "gfx/wallpaper/wallpaper-7.jpeg",
     "profileImage": "gfx/profilbilder/profilbild-adams.jpg",
     "isCompanyProfile": false,
-    "street": "August-Euler-Str. 3",
-    "zip": "50259",
-    "city": "Pulheim",
+    "street": "Alte Brücke 6",
+    "zip": "51570",
+    "city": "Windeck",
     "website": "",
     "timezone": "MESZ",
     "isOnline": false
