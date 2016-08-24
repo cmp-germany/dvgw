@@ -63,7 +63,7 @@ var users = {
       {
         "id": "wolfgang-adams",
         "name": "Wolfgang Adams",
-        "email": "w.adams@gfke.eu",
+        "email": "w.adams@greengate.de",
         "position": "Kommunikation",
         "picture": "gfx/profilbilder/profilbild-adams.jpg",
         "online": false
