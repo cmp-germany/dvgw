@@ -174,7 +174,7 @@ var users = {
   "wolfgang-adams": {
     "id": "wolfgang-adams",
     "name": "Wolfgang Adams",
-    "wallpaper": "gfx/wallpaper/wallpaper-7.jpeg",
+    "wallpaper": "gfx/wallpaper/wallpaper-wolfgang-adams.jpg",
     "profileImage": "gfx/profilbilder/profilbild-adams.jpg",
     "isCompanyProfile": false,
     "street": "Alte Brücke 6",
