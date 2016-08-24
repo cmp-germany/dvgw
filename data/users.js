@@ -64,7 +64,7 @@ var users = {
         "id": "wolfgang-adams",
         "name": "Wolfgang Adams",
         "email": "w.adams@gfke.eu",
-        "position": "Vertrieb",
+        "position": "Kommunikation",
         "picture": "gfx/profilbilder/profilbild-adams.jpg",
         "online": false
       }
